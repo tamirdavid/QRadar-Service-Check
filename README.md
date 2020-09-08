@@ -8,7 +8,7 @@ that managed hosts table contain internal IPS and sometimes customers use NAT as
 
 # Second step - use loop.sh
 You have to pass the collecorIps.txt file as a parameter.
-Loop going to check hostcontext service in every collector and write the result to hostcontext.txt
+Loop going to check hostcontext service in every collector and write the result to hostcontext.txt, you can monitor services as you want.
 After it happens, the script use runlog.pl script and generate logs in the QRadar system.
 
 # Third step - capture the logs
